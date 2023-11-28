@@ -4,7 +4,7 @@
 	<meta charset="utf-8"> 		
 	<meta name="keywords" content="Las Vegas, kids, concentrate, nutrition, juices, healthy, daycare, childcare, natural">		
 	<meta name="viewport" content="width=device width, initial-scale=1"> 	
-	<title>Penny Juice - About Us</title>
+	<title>Penny Juice - It Makes Cents!</title>
 	<link rel="stylesheet" type="text/css" href="../stylesheet.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -31,21 +31,28 @@
             </div>
         </div>
         
-        <div class="content">    
-                <div class="flex-container">
+        <div class="content">
+            <br><br><br><br>
+        </div>
+
+	
+<div class="flex-container">
                     <div>
-                        <h2>About Us</h2>
-                            <h4>What is Penny Juice?</h4>
-                                We're a family-owned business that was founded in 2001 and based in Iowa. We have over 40 years of experience in the beverage industry. Our goal is to help schools and daycares serve kids healthy and delicious beverages in an easy and fun way.
-                            <h4>What's inside Penny Juice?</h4>
-                                Our products are made of 100% blended fruit juice concentrates, all specially made for kids and meet all the requirements of the FDA with regard to subsidy and nutrition. We use only the highest quality fruit juice products!
-                            <h4>How do I order Penny Juice?</h4>
-                                Our juice concentrates are sold by the case. 1 Case makes 24 gallons of juice, and a case contains 6 half-gallon containers. Shipping is available all across the country!
-                            <h4>How do I serve Penny Juice?</h4>
-                                Serving our juice is easy!  All flavors are made using seven parts water and one part juice concentrate. There’s also no need to refrigerate the fruit concentrate before or after opening it.
+                        <h2>It Makes Cents!</h2>
+                            If you’re running a childcare center and want to serve healthy and tasty beverages to kids every day, Penny Juice has you covered! With over 15 different flavors available, there’s a flavor for everyone. Our juice concentrates are designed to be easy to serve with greatly reduced storage and handling requirements.
                     </div>
-                </div>
-        </div>   
+                    <div>
+                        <h2>Popular Flavors</h2>
+                                <li>Apple</li>
+                                <li>Mixed Berry</li>
+                                <li>Orange</li>
+                                <li>&nbsp;</li>
+                                <li>&nbsp;</li>
+                        <li><a href="flavors.html"><h3>View All Flavors</h3></a>
+                    </div>
+                
+	</div>
+   
         
         <div class="footer">
             <h3>Copyright &copy; Penny Juice 2023-2024</h3>
