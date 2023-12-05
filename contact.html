@@ -4,12 +4,17 @@
 	<meta charset="utf-8"> 		
 	<meta name="keywords" content="Las Vegas, kids, concentrate, nutrition, juices, healthy, daycare, childcare, natural">		
 	<meta name="viewport" content="width=device width, initial-scale=1"> 	
-	<title>Penny Juice - Place an Order</title>
-	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<title>Penny Juice - Contact Us</title>
+	<link rel="stylesheet" type="text/css" href="../stylesheet.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Unica+One&display=swap" rel="stylesheet">
-        <style>
+        
+    <style>   
+        .flex-container {
+            border-radius: 9px;
+        }
+            
         input[type=text], select {
             width: 100%;
             padding: 12px, 20px;
@@ -19,6 +24,7 @@
             border-radius: 4px;
             box-sizing: border-box;
             color: #b5b5b5;
+            font-family: sans-serif;
         }
         
         input[type=email], select {
@@ -30,6 +36,7 @@
             border-radius: 4px;
             box-sizing: border-box;
             color: #b5b5b5;
+            font-family: sans-serif;
         }
     
         input[type=subject], select {
@@ -41,18 +48,19 @@
             border-radius: 4px;
             box-sizing: border-box;
             color: #b5b5b5;
+            font-family: sans-serif;
         }
-                 
-        input[type=message], select {
+                    
+        textarea {
+            resize: none;
             width: 100%;
-            padding: 12px, 20px;
-            margin: 8px 0;
-            display: inline-block;
-            border: 1px solid #9d9d9d;
-            border-radius: 4px;
-            box-sizing: border-box;
-            color: #b5b5b5;
         }
+            
+        textarea, select {
+            color: #b5b5b5;
+            font-family: sans-serif;
+        }
+            
         
         input[type=submit], select {
             width: 20%;
@@ -66,6 +74,7 @@
             border-radius: 4px;
             box-sizing: border-box;
             cursor: pointer;
+            font-family: sans-serif;
         }
         
         input[type=submit]:hover {
@@ -73,6 +82,7 @@
 
         }
     </style>
+    
 </head>
 	
 <body>
@@ -81,7 +91,7 @@
             <div class="nav">
                     <ul>
                         <li>&nbsp;</li>
-                        <img src="PJ_Logo.jpg">
+                        <img src="../Images/PJ_Logo.jpg">
                         <li><a href="contact.html">Contact</a></li>
                         <li><a href="flavors.html">Flavors</a>
                             <ul>
@@ -96,31 +106,34 @@
             </div>
         </div>
         
-    <div class="flex-container">    
-    
+    <div class="flex-container">
         <div class="Form">
             <Intro><h2>Contact Us</h2></Intro>
-            Have a question? Just want to talk? Feel free to leave us a message below!
-            <br>&nbsp;
-            <br>&nbsp;
-        <form action="action_form.php">
-            <label for="fname">Your Name</label>
-            <input type="text" id="fname" value="John Doe">
+            Have a question? Just want to leave us a message? Feel free to use the form below!
+<br>&nbsp;
+<br>&nbsp;
+            <form action="action_form.php">
+                <label for="fname">Your Name</label>
+                <input type="text" id="fname" value="John Doe">
             
-            <label for="email">Enter Your Email</label>
-            <input type="email" id="email" value="address@admin.com">
+                <label for="email">Your Email</label>
+                <input type="email" id="email" value="address@admin.com">
             
-            <label for="subject">Subject</label>
-            <input type="subject" id="subject" value="Enter Your Subject">
+                <label for="subject">Subject</label>
+                <input type="subject" id="subject" value="Enter Your Subject...">
             
-            <label for="message">Enter Your Message</label>
-            <input type="message" id="message" value="Type your message here...">
+                Message
+<br>&nbsp;
+                <textarea name="message" cols="70" rows="7">Enter Your Message...</textarea>
             
-            <input type="submit" value="Submit">
-        </form>
+            </form>
         </div>
-
-        </div>   
+    </div>
+<br>&nbsp;
+    <div class="flex-container">
+        <input type="submit" value="Submit">
+    </div>    
+        
         
         <div class="footer">
             <div class="flex-container2">
@@ -136,7 +149,7 @@
                             <td><a href="https://twitter.com/1pennyjuice?lang=en/">Twitter</a></td>
                         </tr>
                     </table>
-                </div>
+            </div>
             <h3>Copyright &copy; Penny Juice 2023-2024</h3>
                 
         </div>
