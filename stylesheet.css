@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 body {
-    background-image: url(Images/PJ_bg_opt_01.jpg);
+    background-image: url(PJ_bg_opt_01.jpg);
     background-size: cover;
     font-family:'Comfortaa', sans-serif;
 }
