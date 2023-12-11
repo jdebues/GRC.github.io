@@ -5,7 +5,7 @@
 	<meta name="keywords" content="Las Vegas, kids, concentrate, nutrition, juices, healthy, daycare, childcare, natural">		
 	<meta name="viewport" content="width=device width, initial-scale=1"> 	
 	<title>Penny Juice - Shop Flavors</title>
-	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<link rel="stylesheet" type="text/css" href="../stylesheet.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Unica+One&display=swap" rel="stylesheet">
@@ -13,6 +13,15 @@
     <style>
         .flex-container {
             border-radius: 9px;
+        }      
+        
+        form {
+            overflow: hidden;
+        }
+        
+        input {
+            float: right;
+            clear: both;
         }
         
         input[type=submit], select {
@@ -44,13 +53,13 @@
             <div class="nav">
                     <ul>
                         <li>&nbsp;</li>
-                        <img src="PJ_Logo.jpg">
+                        <img src="../Images/PJ_Logo.jpg">
                         <li><a href="contact.html">Contact</a></li>
                         <li><a href="flavors.html">Flavors</a>
                             <ul>
-                                <li><a href= grape.html>Grape</a></li>
-                                <li><a href= berry.html>Mixed Berry</a></li>
-                                <li><a href= Apple.html>Apple</a></li>
+                                <li><a href="flavors.html">Grape</a></li>
+                                <li><a href="flavors.html">Mixed Berry</a></li>
+                                <li><a href="flavors.html">Apple</a></li>
                             </ul>
                         </li>
                         <li><a href="about.html">About</a></li>
@@ -63,24 +72,95 @@
             <div class="flex-container">
                 <div>
                     <h2>Shop Flavors</h2>
+                        All juice concentrates contain no added sugar and are all high in Vitamin C! Each flavor contains 100% juice when mixed to the suggested mix ratio - one part concentrate with 7 parts water.
+                    <br>
+                    <br>
+                        1 order of juice concentrate comes can make about a half-gallon (59 fl oz) of juice.
+                    <br>
+                    <br>
+                        Current Prices:
+                    <br>
+                        $1.49 per bottle
+                    <br>
+                        Nationwide shipping is free!
                 </div>
             </div>
 <br>&nbsp;
             <div class="flex-container">
                 <div>
                     <h2>Ready to Order</h2>
-                            <li>Apple</li>
-                            <li>Blueberry</li>
-                            <li>Mixed Berry</li>
-                            <li>Orange</li>
-                            <li>Lemonade</li>
-                            <li>Limonade</li>
-                            <li>Blue Raspberry</li>
-                            <li>Fruit Punch</li>
-                            <li>Strawberry Banana</li>
-                            <li>Tropical</li>
-                            <li>Peach</li>
-                            <li>Cherry</li>
+                            <li>
+                                <form action="/action_page.php">
+                                <label for="quantity">Apple</label>
+                                <input type="number" id="quantity" name="quantity" min="0" max="6">
+                                </form>
+                            </li>
+                            <li>
+                                <form action="/action_page.php">
+                                <label for="quantity">Blueberry</label>
+                                <input type="number" id="quantity" name="quantity" min="0" max="6">
+                                </form>
+                            </li>
+                            <li>
+                                <form action="/action_page.php">
+                                <label for="quantity">Mixed Berry</label>
+                                <input type="number" id="quantity" name="quantity" min="0" max="6">
+                                </form>
+                            </li>
+                            <li>
+                                <form action="/action_page.php">
+                                <label for="quantity">Orange</label>
+                                <input type="number" id="quantity" name="quantity" min="0" max="6">
+                                </form>
+                            </li>
+                            <li>
+                                <form action="/action_page.php">
+                                <label for="quantity">Lemonade</label>
+                                <input type="number" id="quantity" name="quantity" min="0" max="6">
+                                </form>
+                            </li>
+                            <li>
+                                <form action="/action_page.php">
+                                <label for="quantity">Limonade</label>
+                                <input type="number" id="quantity" name="quantity" min="0" max="6">
+                                </form>
+                            </li>
+                            <li>
+                                <form action="/action_page.php">
+                                <label for="quantity">Blue Raspberry</label>
+                                <input type="number" id="quantity" name="quantity" min="0" max="6">
+                                </form>
+                            </li>
+                            <li>
+                                <form action="/action_page.php">
+                                <label for="quantity">Fruit Punch</label>
+                                <input type="number" id="quantity" name="quantity" min="0" max="6">
+                                </form>
+                            </li>
+                            <li>
+                                <form action="/action_page.php">
+                                <label for="quantity">Strawberry Banana</label>
+                                <input type="number" id="quantity" name="quantity" min="0" max="6">
+                                </form>
+                            </li>
+                            <li>
+                                <form action="/action_page.php">
+                                <label for="quantity">Tropical</label>
+                                <input type="number" id="quantity" name="quantity" min="0" max="6">
+                                </form>
+                            </li>
+                            <li>
+                                <form action="/action_page.php">
+                                <label for="quantity">Peach</label>
+                                <input type="number" id="quantity" name="quantity" min="0" max="6">
+                                </form>
+                            </li>
+                            <li>
+                                <form action="/action_page.php">
+                                <label for="quantity">Cherry</label>
+                                <input type="number" id="quantity" name="quantity" min="0" max="6">
+                                </form>
+                            </li>
                 </div>
                 <div>
                         <h2>Sold Out</h2>
@@ -103,7 +183,7 @@
             <div class="flex-container2">
                     <table class="width:50%">
                         <tr>
-                            <th>Contact Us</th>
+                            <th><a href="contact.html">Contact Us</a></th>
                             <td>pennyjuice@hotmail.com</td>
                             <td>563-386-1999</td>
                         </tr>
