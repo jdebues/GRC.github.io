@@ -5,7 +5,7 @@
 	<meta name="keywords" content="Las Vegas, kids, concentrate, nutrition, juices, healthy, daycare, childcare, natural">		
 	<meta name="viewport" content="width=device width, initial-scale=1"> 	
 	<title>Penny Juice - It Makes Cents!</title>
-	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<link rel="stylesheet" type="text/css" href="../stylesheet.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Unica+One&display=swap" rel="stylesheet">
@@ -31,6 +31,38 @@
         li h5:hover {
             background-color: white;
         }
+        
+        input[type=text], select {
+            width: 100%;
+            padding: 12px, 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #9d9d9d;
+            border-radius: 4px;
+            box-sizing: border-box;
+            color: #b5b5b5;
+            font-family: sans-serif;
+        }
+        
+        input[type=submit], select {
+            width: 25%;
+            height: 30px;
+            background-color: azure;
+            color: black;
+            padding: 14px, 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: none;
+            border-radius: 4px;
+            box-sizing: border-box;
+            cursor: pointer;
+            font-family: sans-serif;
+        }
+        
+        input[type=submit]:hover {
+            background-color: #C278C4;
+
+        }
     </style>  
 
 	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
@@ -45,18 +77,17 @@
         <div class="flex-container4">
             <div class="nav">
                     <ul>
-                        
-                        <img src="PJ_Logo.jpg">
                         <li><a href="contact.html">Contact</a></li>
                         <li><a href="flavors.html">Flavors</a>
                             <ul>
-                                <li><a href="flavors.html">Grape</a></li>
-                                <li><a href="flavors.html">Mixed Berry</a></li>
                                 <li><a href="flavors.html">Apple</a></li>
+                                <li><a href="flavors.html">Mixed Berry</a></li>
+                                <li><a href="flavors.html">Orange</a></li>
                             </ul>
                         </li>
                         <li><a href="about.html">About</a></li>
                         <li><a href="index.html">Home</a></li>
+                        <a href="index.html"><img src="../Images/PJ_Logo.jpg"></a>
                     </ul>
             </div>
         </div>
@@ -94,8 +125,14 @@
                                 <li>Mixed Berry</li>
                                 <li>Orange</li>
                                 <li>&nbsp;</li>
+                        <li><a href="flavors.html"><h5>Shop All Flavors</h5></a>
                                 <li>&nbsp;</li>
-                        <li><a href="flavors.html"><h5>Shop For Flavors</h5></a>
+                            <form action="action_form.php">
+                                <label for="fname">Help Us Choose a New Flavor!</label>
+                                
+                                <input type="text" id="fname" value="Type in a Flavor...">
+                            </form>
+                            <input type="submit" value="Submit">
                     </div>
         </div>
    
@@ -110,8 +147,8 @@
                         </tr>
                         <tr>
                             <th>Follow Us</th>
-                            <td><a href="https://www.facebook.com/PENNYJUICE/">Facebook</a></td>
-                            <td><a href="https://twitter.com/1pennyjuice?lang=en/">Twitter</a></td>
+                            <td><a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/PENNYJUICE/">Facebook</a></td>
+                            <td><a target="_blank" rel="noopener noreferrer" href="https://twitter.com/1pennyjuice?lang=en/">Twitter</a></td>
                         </tr>
                     </table>
             </div>

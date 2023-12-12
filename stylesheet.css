@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 body {
-    background-image: url(PJ_bg_opt_01.jpg);
+    background-image: url(Images/PJ_bg_opt_01.jpg);
     background-size: cover;
     font-family:'Comfortaa', sans-serif;
 }
@@ -81,14 +81,9 @@ h5:hover {
 }
 
 .nav img {
-    width: 18%;
-    margin-left: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-    font-size: 25px;
-    margin-top: auto;
-    margin-bottom: auto;
+    width: 24%;
+    float: left;
+    padding-left: 40px;
 }
 
 .nav ul {
@@ -135,21 +130,24 @@ h5:hover {
 .nav ul li:hover ul {
     display: block;
     position: absolute;
-    background-color: darkblue;
+    background-color: #FF9C9C;
     border-radius: 0px 0px 9px 9px;
     z-index: 100;
 }
 
 .nav ul li ul li {
-
+    width: 65%;
 }
 
 .nav ul li ul li a {
-    color: cadetblue;
+    color: darkblue;
+    text-align: center;
+    font-size: 18px;
+    padding-left: 10px;
 }
 
 .nav ul li ul li a:hover {
-    color: darkgray;
+    color: #C278C4;
 }
 
 .flex-container3 {
@@ -354,6 +352,7 @@ td {
     font-size: 12px;
     color: darkblue;
     text-align: center;
+    background-color: #B570B8;
 }
 
 td a {
