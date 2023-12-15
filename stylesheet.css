@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 body {
-    background-image: url(PJ_bg_opt_01.jpg);
+    background-image: url(Images/PJ_bg_opt_01.jpg);
     background-size: cover;
     font-family:'Comfortaa', sans-serif;
 }
@@ -332,27 +332,29 @@ table {
 tr {
 
     border: solid;
-    border-width: 3px;
-    border-left-width: 0px;
-    border-right-width: 0px;
-    border-color: #FF9C9C;
+    border-width: 5px;
+    border-left-width: 5px;
+    border-right-width: 5px;
+    border-color: #B570B8;
+    border-radius: 4px;
 }
 
 th {
     font-size: 16px;
     color: darkblue;
     text-align: center;
+    background-color: #FF9C9C;
 }
 
 th a:hover {
-    color: #FF9C9C;
+    color: #B570B8;
 }
 
 td {
     font-size: 12px;
     color: darkblue;
     text-align: center;
-    background-color: #B570B8;
+    background-color: #FF9C9C;
 }
 
 td a {
@@ -360,5 +362,5 @@ td a {
 }
 
 td a:hover {
-    color: #FF9C9C;
+    color: #B570B8;
 }
